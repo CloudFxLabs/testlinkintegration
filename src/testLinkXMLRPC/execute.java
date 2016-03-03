@@ -32,7 +32,7 @@ public class execute {
         TestCaseIntegration tci = new TestCaseIntegration();
 
        // URL url = new URL("http://192.168.1.250/testlink/lib/api/xmlrpc.php");
-        TestLinkAPI API = tci.getAPI("http://192.168.1.250/testlink/lib/api/xmlrpc.php", "d8e9a8809115cf4c7fb014d164f79b06");
+        TestLinkAPI API = tci.getAPI("http://xxxx/testlink/lib/api/xmlrpc.php", "xxxx");
         PrintWriter out=new PrintWriter(System.out);
 
         try
