@@ -19,7 +19,7 @@ import java.net.URL;
 
 /**
  * Created with IntelliJ IDEA.
- * User: CipherCloud
+ * User: Uma Mahesh.G
  * Date: 21/8/13
  * Time: 1:32 PM
  * To change this template use File | Settings | File Templates.
@@ -47,11 +47,11 @@ public class execute {
             }
 
 
-          int projectId= tci.getProjectId(API,"SFDC");
+          int projectId= tci.getProjectId(API,"test");
             System.out.println(projectId);
-          int projectPlanId= tci.getTestSuiteId(API,"SFDC","4.2");
+          int projectPlanId= tci.getTestSuiteId(API,"test","4.2");
             System.out.println(projectPlanId);
-          int testSuiteId = tci.getTestSuiteId(API,"SFDC","Accounts");
+          int testSuiteId = tci.getTestSuiteId(API,"test","Accounts");
 
           TestCase[] testCases =tci.getTestCases(API,testSuiteId,false,TestCaseDetails.SIMPLE);
             for(TestCase tcase: testCases)
